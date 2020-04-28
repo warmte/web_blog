@@ -1,0 +1,67 @@
+header .byline {
+    display: block;
+    margin: 0.5em 0 0 0;
+    padding: 0 0 0.5em 0;
+}
+
+#post .row .container {
+    float: none;
+}
+
+#post header {
+    padding: 1em 0 2em;
+    font-size: 0.9em;
+}
+
+#post header .date {
+    padding-left: 0.4em;
+}
+
+.post-section {
+    padding: 3em 0;
+}
+
+#post .post-section {
+    /*text-align: center;*/
+    color: #242424;
+}
+
+.post-section .post-text {
+    text-align: justify;
+    display: block;
+}
+
+.back {
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+.text-section {
+    padding-left: 2em;
+}
+
+.multilanguage {
+    display: flex;
+}
+
+.languages {
+    transform: translateX(-100%);
+    padding-top: 3em;
+}
+
+.languages button {
+    text-decoration: none;
+    border: none;
+    background: none;
+    margin: 0 0 0 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.languages img {
+    opacity: 50%;
+}
+
+.languages img:hover {
+    opacity: 100%;
+}

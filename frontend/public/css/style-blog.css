@@ -1,0 +1,158 @@
+.date {
+    padding: 0 0 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 8pt;
+    color: #A2A2A2;
+    font-family: 'Arimo', sans-serif;
+}
+
+/* Buttons */
+
+.button {
+    position: relative;
+    display: inline-block;
+    background: none;
+    text-decoration: none;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #A2A2A2;
+    font-weight: bold;
+    margin-left: auto;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    color: #1b1b1b;
+}
+
+#blog-post .button {
+    font-size: 0.8em;
+}
+
+.view-more {
+    margin: 1em;
+    position: relative;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #494855;
+    background: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.view-more:hover {
+    color: #9997AF;
+}
+
+/* Lists */
+
+ul.style {
+}
+
+ul.style li {
+    margin: 0;
+    padding: 1.6em 0 1.5em 0;
+    border-top: 1px solid #ECECEC;
+}
+
+ul.style li:first-child {
+    border-top: none;
+}
+
+ul.style img {
+    margin-right: 20px;
+}
+
+ul.style p {
+}
+
+ul.style .first {
+    padding-top: 0;
+    border-top: none;
+}
+
+/* Featured */
+
+#featured {
+    position: relative;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+#featured h2 {
+    display: block;
+    font-size: 1.2em;
+}
+
+/* Sidebar */
+
+.sidebar-section {
+    margin: 3em 0 2em 0;
+}
+
+#sidebar-post {
+    display: flex;
+}
+
+#sidebar-post a {
+    text-decoration: none;
+}
+
+#sidebar-post a:hover {
+    text-decoration: underline;
+}
+
+#sidebar-post .text {
+    display: block;
+    padding-left: 2em;
+    padding-top: 0.5em;
+}
+
+#sidebar-post .text h2 {
+    font-size: 1em;
+}
+
+#sidebar-post .img-wrap {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    overflow: hidden;
+    border-style: solid;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#sidebar-post .img-wrap img {
+    height: 70px;
+    min-width: 70px;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#blog-post a {
+    text-decoration: none;
+}
+
+#blog-post a :hover {
+    text-decoration: underline;
+}
+
+#blog-post {
+    min-height: 38em;
+}
+
+#blog-post .post-text {
+    text-align: justify;
+}
+
+#blog-post .footer {
+    display: flex;
+}
