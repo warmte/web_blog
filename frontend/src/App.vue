@@ -43,6 +43,5 @@
 
 <style>
     @import "../public/css/style-text.css";
-    @import "../public/css/style.css";
     @import "../public/css/style-blog.css";
 </style>

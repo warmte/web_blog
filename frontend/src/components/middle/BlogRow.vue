@@ -14,7 +14,7 @@
         props: ['posts', 'size'],
         computed: {
             viewPosts: function () {
-                return Object.values(this.posts).sort((a, b) => b.id - a.id).slice(0, this.size);
+                return Object.values(this.posts).slice(0, this.size);
             }
         },
         components: {

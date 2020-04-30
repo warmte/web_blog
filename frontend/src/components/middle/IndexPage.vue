@@ -24,14 +24,14 @@
 
 <script>
     import SidebarPost from './SidebarPost.vue'
-    import WelcomeText from "./Texts/WelcomeText";
+    import WelcomeText from "./Texts/WelcomeText"
 
     export default {
         name: "Index",
         props: ['posts'],
         computed: {
             viewPosts: function () {
-                return Object.values(this.posts).sort((a, b) => b.id - a.id).slice(0, 3);
+                return Object.values(this.posts).slice(0, 3);
             }
         },
         components: {

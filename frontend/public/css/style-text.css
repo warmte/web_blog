@@ -29,6 +29,7 @@ header .byline {
 .post-section .post-text {
     text-align: justify;
     display: block;
+    list-style: disc;
 }
 
 .back {
